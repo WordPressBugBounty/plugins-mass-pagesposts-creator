@@ -4,7 +4,7 @@
  * Plugin Name: Mass Pages/Posts Creator
  * Plugin URI: https://www.thedotstore.com/mass-pages-posts-creator/
  * Description: Mass Pages/Posts Creator is a plugin which provide a simplest interface by which user can create multiple Pages/Posts at a time.
- * Version: 2.2.0
+ * Version: 2.2.1
  * Author: theDotstore
  * Author URI: https://www.thedotstore.com
  * License: GPLv3 or later
@@ -12,7 +12,7 @@
  * Text Domain: mass-pages-posts-creator
  * Domain Path: /languages/
  * 
- * WP tested up to:      6.6.1
+ * WP tested up to:      6.9
  * Requires PHP:         5.6
  * Requires at least:    5.0
  */
@@ -55,7 +55,7 @@ if ( !function_exists( 'mppcp_fs' ) ) {
     do_action( 'mppcp_fs_loaded' );
 }
 if ( !defined( 'MPPC_PLUGIN_VERSION' ) ) {
-    define( 'MPPC_PLUGIN_VERSION', '2.2.0' );
+    define( 'MPPC_PLUGIN_VERSION', '2.2.1' );
 }
 if ( !defined( 'MPPC_PLUGIN_URL' ) ) {
     define( 'MPPC_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
@@ -64,7 +64,7 @@ if ( !defined( 'MPPC_PLUGIN_PATH' ) ) {
     define( 'MPPC_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
 }
 if ( !defined( 'MPPC_PLUGIN_NAME' ) ) {
-    define( 'MPPC_PLUGIN_NAME', __( 'Mass Pages/Posts Creator', 'mass-pages-posts-creator' ) );
+    define( 'MPPC_PLUGIN_NAME', 'Mass Pages/Posts Creator' );
 }
 if ( !defined( 'MPPC_STORE_URL' ) ) {
     define( 'MPPC_STORE_URL', 'https://www.thedotstore.com/' );

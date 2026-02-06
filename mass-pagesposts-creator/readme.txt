@@ -4,10 +4,10 @@ Plugin URI: https://wordpress.org/plugins/mass-pagesposts-creator/
 Author: theDotstore
 Author URI: https://www.thedotstore.com/
 Contributors: dots, mayurk
-Stable tag: 2.2.0
+Stable tag: 2.2.1
 Tags: bulk, mass, multiple, amount, volume, quantity, posts, pages
 Requires at least: 5.0
-Tested up to: 6.6.1
+Tested up to: 6.9
 Donate link: https://www.thedotstore.com/
 Copyright: (c) 2015-2019 Thedotstore all rights reserved (support@thedotstore.com)
 License: GPLv3 or later
@@ -124,6 +124,10 @@ ANS: Yes, the Mass Pages/Posts Creator plugin provides a feature that allows you
 Automatic updates should work great for you.  As always, though, we recommend backing up your site prior to making any updates just to be sure nothing goes wrong.
 
 == Changelog ==
+= 2.2.1 =
+* [Enhancement] Freemius SDK updated
+* [Enhancement] Compatible with WordPress 6.9
+
 = 2.2.0 =
 * [Enhancement] Plugin UI Enhancement
 * [Enhancement] Compatible with WordPress 6.6.x
